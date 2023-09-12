@@ -3,7 +3,7 @@
 # Introduction
 This Project performed data-analysis on the Movie Industry Data from Kaggle (https://www.kaggle.com/datasets/danielgrijalvas/movies) using Python to find what variables affects movie's revenue.
 
-In this project, we are going to see if there is correlation within the data between the gross revenue of a film and any other aspect(including genre, director, released time, and so on); the initial hypothesis is that gross revenue and budget will have a positive correlation.
+In this project, I wonder if there is correlation within the data between the gross revenue of a film and any other aspect(including genre, director, released time, and so on); the initial hypothesis is that gross revenue and budget will have a positive correlation.
 
 # Dataset
 
@@ -44,5 +44,7 @@ The data was scraped from IMDb(https://www.imdb.com/list/ls031674317/) using Pyt
 
 
 # Analysis Procedure
+
+In this project, I used python libraries including Pandas, Numpy, Seaborn, and Matplotlib.
 
 
