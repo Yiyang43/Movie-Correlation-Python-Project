@@ -45,14 +45,24 @@ The data was scraped from IMDb(https://www.imdb.com/list/ls031674317/) using Pyt
 
 # Analysis Procedure
 
-Python libraries: Pandas, Numpy, Seaborn, and Matplotlib
+(1) Python libraries: Pandas, Numpy, Seaborn, and Matplotlib
 
-Data pre-processing: 
+(2) Data pre-processing and data cleaning: 
   - missing value check
   - split the column with weird form('June 13, 1980 (United States)' into 'June 13, 1980' and 'United States')
   - converted the data type of some variables(‘released’, 'buget', 'gross', and so on)
   - de-duplicate
   - check the outlier
 
+(3) Hypothesis
 
+  1. Budget and Gross will positively correlate
+  2. The Company will have a high correlation with the amount of budget
 
+(4) Visualize
+Check the correlation by using scatter plots, heatmaps, and correlations
+
+(5) Result
+We can see that company name actually has a fairly low correlation with the budget but we have confirmed that budget and gross are fairly highly correlated.
+
+We also discovered that Votes and Gross were an additional highly correlated pairing, which makes sense as the amount of money made on a movie would liekly lead to it receiving higher votes.
