@@ -45,6 +45,14 @@ The data was scraped from IMDb(https://www.imdb.com/list/ls031674317/) using Pyt
 
 # Analysis Procedure
 
-In this project, I used python libraries including Pandas, Numpy, Seaborn, and Matplotlib.
+Python libraries: Pandas, Numpy, Seaborn, and Matplotlib
+
+Data pre-processing: 
+  - missing value check
+  - split the column with weird form('June 13, 1980 (United States)' into 'June 13, 1980' and 'United States')
+  - converted the data type of some variables(‘released’, 'buget', 'gross', and so on)
+  - de-duplicate
+  - check the outlier
+
 
 
