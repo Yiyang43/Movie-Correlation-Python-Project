@@ -16,30 +16,31 @@ The dataset contains 6820 movies in total (220 movies per year, 1986-2016). Each
 
 - country: country of origin
 
-director: the director
+- director: the director
 
-genre: main genre of the movie.
+- genre: main genre of the movie.
 
-gross: revenue of the movie
+- gross: revenue of the movie
 
-name: name of the movie
+- name: name of the movie
 
-rating: rating of the movie (R, PG, etc.)
+- rating: rating of the movie (R, PG, etc.)
 
-released: release date (YYYY-MM-DD)
+- released: release date (YYYY-MM-DD)
 
-runtime: duration of the movie
+- runtime: duration of the movie
 
-score: IMDb user rating
+- score: IMDb user rating
 
-votes: number of user votes
+- votes: number of user votes
 
-star: main actor/actress
+- star: main actor/actress
 
-writer: writer of the movie
+- writer: writer of the movie
 
-year: year of release
+- year: year of release
 
+The data was scraped from IMDb(https://www.imdb.com/list/ls031674317/) using Python.
 
 
 # Analysis Procedure
